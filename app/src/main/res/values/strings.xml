@@ -15,4 +15,7 @@
     <string name="edit_text">Edit Text</string>
     <string name="spinner">Spinner</string>
     <string name="seekbar">SeekBar</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="activity">Activity</string>
+    <string name="fragment">Fragment</string>
 </resources>

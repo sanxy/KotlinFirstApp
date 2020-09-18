@@ -15,13 +15,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="32dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="32dp"
         android:text="@string/radio_and_checkbox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_view" />
@@ -41,9 +41,10 @@
         android:id="@+id/buttonEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="32dp"
         android:text="@string/edit_text"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toEndOf="@+id/buttonRadioCheckbox"
         app:layout_constraintTop_toBottomOf="@+id/text_view" />
 
@@ -66,6 +67,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonSpinner"
         app:layout_constraintTop_toBottomOf="@+id/buttonEditText" />
+
+    <Button
+        android:id="@+id/buttonRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/recyclerview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpinner" />
+
+    <Button
+        android:id="@+id/buttonActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/activity"
+        app:layout_constraintStart_toEndOf="@+id/buttonRecyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSeekBar" />
+
+    <Button
+        android:id="@+id/buttonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/fragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toEndOf="@+id/buttonActivity"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSeekBar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

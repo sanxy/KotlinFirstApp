@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var buttonEditText : Button
     lateinit var buttonSpinner : Button
     lateinit var buttonSeekBar : Button
+    lateinit var buttonRecyclerView : Button
+    lateinit var buttonActivity : Button
+    lateinit var buttonFragment : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         buttonEditText = findViewById(R.id.buttonEditText)
         buttonSpinner = findViewById(R.id.buttonSpinner)
         buttonSeekBar = findViewById(R.id.buttonSeekBar)
+        buttonRecyclerView = findViewById(R.id.buttonRecyclerView)
+        buttonActivity = findViewById(R.id.buttonActivity)
+        buttonFragment = findViewById(R.id.buttonFragment)
 
         buttonClick.setOnClickListener {
             buttonClick.text = "Clicked"
@@ -60,6 +66,21 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonSeekBar.setOnClickListener {
+            val intent = Intent(this, SeekBarActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonRecyclerView.setOnClickListener {
+            val intent = Intent(this, RecyclerViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonActivity.setOnClickListener {
+            val intent = Intent(this, LifeCycleActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonFragment.setOnClickListener {
             val intent = Intent(this, SeekBarActivity::class.java)
             startActivity(intent)
         }

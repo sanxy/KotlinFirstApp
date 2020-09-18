@@ -15,7 +15,7 @@ class SeekBarActivity : AppCompatActivity() {
         setContentView(R.layout.activity_seek_bar)
 
         slider = findViewById(R.id.sbSlider)
-        value = findViewById(R.id.tvResult) 
+        value = findViewById(R.id.tvResult)
 
         slider.max = 50 //Default is 100
 
