@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Kotlin First App</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="languages_known">Languages Known</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="yoruba">Yoruba</string>
+    <string name="submit">submit</string>
+    <string name="hi">Hi</string>
+    <string name="radio_and_checkbox">Radio and Checkbox</string>
+    <string name="first_click">First Click</string>
+    <string name="copy">copy</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="spinner">Spinner</string>
+    <string name="seekbar">SeekBar</string>
 </resources>

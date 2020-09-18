@@ -9,6 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SeekBarActivity"
+            android:label="@string/seekbar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/spinner"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditTextActivity"
+            android:label="Edit Text"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RadioCheckboxActivity"
+            android:label="Radio And Checkbox"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
